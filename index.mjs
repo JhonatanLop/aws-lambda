@@ -2,7 +2,6 @@ import { log } from "./log.mjs";
 
 export const handler = async (event) => {  
   console.log("logs: " + JSON.stringify(event));
-  console.log(process.env.my_key);
   
 
   return {
